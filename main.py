@@ -2,6 +2,7 @@ from sklearn import datasets
 import MachineLearningPipeline as mlp
 import Variance as var
 from MachineLearningPipeline import *
+import PercentilesMoments as pm
 
 
 def main():
@@ -19,7 +20,8 @@ def main():
     # Jupiter Notebook Course
     # mlp.jupyternotebook()
     # var.variance()
-    var.std_dev_var()
+    # var.std_dev_var()
+    pm.perc_mom()
 
 if __name__ == '__main__':
     main()

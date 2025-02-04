@@ -24,10 +24,13 @@ def variance():
     print(f'The standard deviation of the data set is {np.sqrt(np.mean(squared_differences))}')
 
     #Sample Variance vs Population
-    print(f'The sample variance of the data set is {np.var(np.sqrt(np.mean(squared_differences)))}')
+    print(f'The sample variance of the data set is {np.var(np.sqrt(squared_differences))}')
 
 def std_dev_var():
-    incomes = np.random.normal(100.0, 50.0, 10000)
+    incomes = np.random.normal(100.0, 10.0, 100000)
 
     plt.hist(incomes, 50)
     plt.show()
+
+    print(f'The standard deviation of the data set is {np.std(incomes)}')
+    print(f'The sample variance of the data set is {np.var(incomes)}')
