@@ -18,7 +18,8 @@ def main():
 
     # Jupiter Notebook Course
     # mlp.jupyternotebook()
-    var.variance()
+    # var.variance()
+    var.std_dev_var()
 
 if __name__ == '__main__':
     main()
