@@ -3,6 +3,7 @@ import MachineLearningPipeline as mlp
 import Variance as var
 from MachineLearningPipeline import *
 import PercentilesMoments as pm
+import Plots as pl
 
 
 def main():
@@ -21,7 +22,10 @@ def main():
     # mlp.jupyternotebook()
     # var.variance()
     # var.std_dev_var()
-    pm.perc_mom()
+    # pm.perc_mom()
+    # pm.moments()
+    pl.plotting()
+
 
 if __name__ == '__main__':
     main()

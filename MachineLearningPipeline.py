@@ -8,7 +8,6 @@ def setup_pipeline():
     pass
 
 def jupyternotebook():
-    #%matplotlibinline
     import numpy as np
     import matplotlib.pyplot as plt
 
