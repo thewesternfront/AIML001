@@ -24,7 +24,9 @@ def main():
     # var.std_dev_var()
     # pm.perc_mom()
     # pm.moments()
-    pl.plotting()
+    # pl.plotting()
+    # pl.scatterplot()
+    pl.seaborn()
 
 
 if __name__ == '__main__':
