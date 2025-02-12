@@ -20,13 +20,13 @@ def main():
 
     # Jupiter Notebook Course
     # mlp.jupyternotebook()
-    # var.variance()
+    var.variance()
     # var.std_dev_var()
     # pm.perc_mom()
     # pm.moments()
     # pl.plotting()
     # pl.scatterplot()
-    pl.seaborn()
+    ###pl.seaborn()
 
 
 if __name__ == '__main__':
