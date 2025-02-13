@@ -4,6 +4,7 @@ import Variance as var
 from MachineLearningPipeline import *
 import PercentilesMoments as pm
 import Plots as pl
+import CovarianceCorrelation as cc
 
 
 def main():
@@ -20,7 +21,8 @@ def main():
 
     # Jupiter Notebook Course
     # mlp.jupyternotebook()
-    var.variance()
+    # var.variance()
+    cc.covariance_correlation()
     # var.std_dev_var()
     # pm.perc_mom()
     # pm.moments()
